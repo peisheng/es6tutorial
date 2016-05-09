@@ -238,7 +238,7 @@ var person = {
 }
 
 person.sayName.name   // "sayName"
-person.firstName.name // "get firstName"
+person.firstName.name // "undefined"
 ```
 
 上面代码中，方法的`name`属性返回函数名（即方法名）。如果使用了取值函数，则会在方法名前加上`get`。如果是存值函数，方法名的前面会加上`set`。
